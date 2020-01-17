@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Post-App/static/css/main.1ae7e711.chunk.css",
+    "main.js": "/React-Post-App/static/js/main.90835243.chunk.js",
+    "main.js.map": "/React-Post-App/static/js/main.90835243.chunk.js.map",
+    "runtime-main.js": "/React-Post-App/static/js/runtime-main.2ee4c6e6.js",
+    "runtime-main.js.map": "/React-Post-App/static/js/runtime-main.2ee4c6e6.js.map",
+    "static/js/2.b2e478f0.chunk.js": "/React-Post-App/static/js/2.b2e478f0.chunk.js",
+    "static/js/2.b2e478f0.chunk.js.map": "/React-Post-App/static/js/2.b2e478f0.chunk.js.map",
+    "index.html": "/React-Post-App/index.html",
+    "precache-manifest.4cbb187395d575199a49ae9110e38b1c.js": "/React-Post-App/precache-manifest.4cbb187395d575199a49ae9110e38b1c.js",
+    "service-worker.js": "/React-Post-App/service-worker.js",
+    "static/css/main.1ae7e711.chunk.css.map": "/React-Post-App/static/css/main.1ae7e711.chunk.css.map",
+    "static/js/2.b2e478f0.chunk.js.LICENSE": "/React-Post-App/static/js/2.b2e478f0.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ee4c6e6.js",
+    "static/js/2.b2e478f0.chunk.js",
+    "static/css/main.1ae7e711.chunk.css",
+    "static/js/main.90835243.chunk.js"
+  ]
+}

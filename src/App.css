@@ -1,0 +1,213 @@
+.post-content{
+    
+}
+.post{
+    text-align: left;
+    /* background-color: white; */
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+}
+.post h1{
+    font-size:35px;
+    
+}
+.post p{
+    font-size:20px;
+}
+.header-content{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.header-content div {
+    font-size:20px;
+    color: blue;
+    background-color: darkcyan;
+    
+}
+.search-form select{
+    margin-right:5px ;
+    font-size:15px;
+    vertical-align: middle;
+    background-color: transparent;
+    border:none;
+}
+.search-form input{
+    border-radius: 5px;
+    margin-left:5px;
+    padding: 2px;
+    border: none;
+    vertical-align: middle;
+    font-size: 18px;
+}
+.search-form input:focus{
+    outline: none;
+    border-bottom:1px solid red;
+    box-shadow: none;
+    
+}
+
+.post-detail{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin: 14% auto;
+    width: 50%;
+    text-align: center;
+}
+
+.post-detail p{
+    color: blue;
+    text-align: left;
+    justify-content: center;
+}
+.post-detail h4,h3{
+    font-size: 20px;
+}
+.dash{
+    border:1px solid #28a745;
+    width: 20%;
+    margin-top: 0;
+}
+.back-btn {
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    font-weight: 900;
+}
+.back-btn:hover{
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    opacity: .9;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.btn-back{
+  background-color: darkcyan;
+  color: whitesmoke;
+ 
+}
+.btn-back:hover{
+  background-color: darkcyan;
+  color: whitesmoke;
+  border:2px solid darkcyan;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+a:hover{
+        text-decoration: none ;
+        color: blueviolet;
+}
+.create-form{
+    margin-top: 6%;
+}
+.create-form h3{
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.create-form hr{
+    margin-top: -5px;
+    border-bottom:1px solid #28a745;
+    width: 50%;
+}
+.create-form button{
+    font-weight: 900;
+    background-color: darkcyan;
+    color:white;
+}
+.create-form button:focus{
+    outline: none;
+}
+
+
+/* not found */
+
+#notfound {
+    position: relative;
+    height: 100vh;
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 520px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .notfound .notfound-404 {
+    position: relative;
+    height: 240px;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 252px;
+    font-weight: 900;
+    margin: 0px;
+    color: #262626;
+    text-transform: uppercase;
+    letter-spacing: -40px;
+    margin-left: -20px;
+  }
+  
+  .notfound .notfound-404 h1>span {
+    text-shadow: -8px 0px 0px #fff;
+  }
+  
+  .notfound .notfound-404 h3 {
+    font-family: 'Cabin', sans-serif;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 0px;
+    letter-spacing: 3px;
+    padding-left: 6px;
+  }
+  
+  .notfound h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .notfound .notfound-404 {
+      height: 200px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 {
+      height: 162px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 162px;
+      height: 150px;
+      line-height: 162px;
+    }
+    .notfound h2 {
+      font-size: 16px;
+    }
+  }
